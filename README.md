@@ -42,7 +42,7 @@ Let's make some Currying with Perl.
 
 	sub concat {
 	    # The function "concat" bootstraps the process.
-	    # If it is called without parameters, the it returns an empty string.
+	    # If it is called without parameters, then it returns an empty string.
 	    # Otherwise, it will initiate the process that evaluates the line.
 	    return '' if 0 == @_;
 	    my $inCurrentResult = shift;
